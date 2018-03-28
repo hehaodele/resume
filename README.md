@@ -1,1 +1,1 @@
-Hao Wang's resume.
+Hao He's resume.
