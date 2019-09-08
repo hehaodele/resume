@@ -53,6 +53,8 @@
 \newcommand{\Bullet}[1]{{\raisebox{0.25ex}{\tiny$\bullet$\ }}{#1}\\}
 % Added end.
 
+\newsectionwidth{90pt}
+\renewcommand{\sectionfont}{\bf\small}
 % Increase text height
 \textheight=700pt
 
@@ -81,14 +83,14 @@
 \href{http://web.mit.edu}{\textbf{Massachusetts Institute of Technology}}, Cambridge, MA
 \hfill 2017 - present
 \\
-Ph.D. Candidate
+Ph.D. in Computer Science
 \\
-\Bullet{Advisor: Prof. Dina Katabi}
+\Bullet{Advisor: Prof. Dina Katabi    \qquad GPA: 5.0/5.0}
 % \Bullet{Courses: Machine Learning, Artificial Intelligence, NLP with Deep Learning, Intro to HCI, HCI Studio, Computational Imaging and Display}
 \href{http://english.pku.edu.cn/}{\textbf{Peking University}}, China
 \hfill 2013 - 2017
 \\
-B.S., Computer Science
+B.S. in Computer Science
 \\
 \Bullet{Major GPA: 3.93/4.00 (rank 1st)}
 %-------------------------------------------------------------------------------
@@ -113,10 +115,13 @@ B.S., Computer Science
 \title{\textbf{Research Assistant, MIT}}
 \begin{position}
     Advisor: Prof. Dina Katabi \\
-    Project: Machine Learning Method in Radio Frequency Sensing for Health Care \\
-    \Bullet{Develope RF based fall detection system using deep learning architecture.}
-    \Bullet{Develope RF based multiple people breathing monitoring system.}
-    \Bullet{Analyze properties of a framewrok for health states prediction via EEG signals.}
+    Project: Deep Learning for Distributed Circuit Design \\
+    \Bullet{Develope a graph neural network that can optimize high-frequency (THz) circuits.}
+
+    \vspace{-7mm}
+    Project: Learning Based Wireless Sensing for Health Care and Small Home \\
+    \Bullet{Develope wireless fall detection system using 3D convolution networks.}
+    \Bullet{Develope wireless multiple people breathing monitoring system.}
 \end{position}
 \vspace{-5mm}
 
@@ -126,11 +131,14 @@ B.S., Computer Science
 \title{\textbf{Research Intern, Microsoft Research}}
 \begin{position}
     Mentor: David Wipf \\
-    Project: Deep Learning Based Sparse Bayesian Learning Method \\
-    \Bullet{Develope noval deep learning architectures that mimic and outperform Sparse Bayesian Learning algorithm.}
+    Project: Neural Sparse Bayesian Learning Algorithm \\
+    \Bullet{We propose a novel DL model that solves sparse matrix inverse problem efficiently.}
+    \Bullet{We develope a theory that map the classic Sparse Bayesian Learning algorithm to standard recurrent neural network cell.}
+
+    \vspace{-7mm}
     Mentor: Stephen Lin \\
     Project: White Box Photo Post-Processing Framework \\
-    \Bullet{Desige experiments to evalutate our system performance on album style learning, photo quality enhancing, filter reverse engneering.}
+    \Bullet{We develope a framework that automatically learns photo processing patterns for any given photo retouching style.}
 \end{position}
 \vspace{-5mm}
 
@@ -140,8 +148,8 @@ B.S., Computer Science
 \title{\textbf{Research Intern, Stanford University}}
 \begin{position}
     Advisor: Leonidas J. Guibas \\
-    Project: 3D Shape Estimation via Single Image \\
-    \Bullet{Desige Genrative Adersrial Networks framwork to learning 3D shape distribution condition on singe observation.}
+    Project: 3D Shape Reconstruction via Single Image \\
+    \Bullet{Develope a generative model that generates 3D point cloud conditioned on a 2D image.}
 \end{position}
 %-------------------------------------------------------------------------------
 \vspace{-5mm}
@@ -150,29 +158,58 @@ B.S., Computer Science
 %	PUBLICATION SECTION
 %-------------------------------------------------------------------------------
 \section{PUBLICATION}
-\Bullet{\textbf{Hao He}, Bo Xin, Satoshi Ikehata, David Wipf, "From Bayesian Sparsity to Gated Recurrent Nets",  Conference on Neural Information Processing
-Systems (NIPS) 2017. \emph{Oral presentation}}
-\Bullet{Yuanming Hu, \textbf{Hao He}, Chenxi Xu, Baoyuan Wang, Stephen Lin, "Exposure: A White-Box Photo Post-Processing Framework", ACM Transactions on Graphics.}
-\Bullet{Shichao Yue, \textbf{Hao He}, Dina Katabi, "Extracting Multi-Person Respiration from Entangled RF Signals.". \emph{(in submission to ubicomp 2018)}}
-\Bullet{\textbf{Hao He}*, Yonglong Tian*, Guanghe Lee*, Dina Katabi, Chenyu Xu, "RF-Based Fall Monitoring Using Convolutional Neural Networks". \emph{(in submission to ubicomp 2018)}}
-\Bullet{Hao Wang, Chengzhi Mao, \textbf{Hao He}, Dina Katabi, Tommi jaakkola, "Hierarchical Bidirectional Inference Networks for Health Profiling.". \emph{(in submission to UAI 2018)}}
+\textbf{Circuit-GNN: Graph Neural Networks for Distributed Circuit Design}\\
+\textbf{Hao He*}, Guo Zhang*, Dina Katabi\\
+International Conference on Machine Learning (ICML 2019)
+
+\textbf{ProbGAN: Towards Probabilistic GAN with Theoretical Guarantees}\\
+\textbf{Hao He}, Hao Wang, Guang-He Lee, Yonglong Tian\\
+International Conference on Learning Representations (ICLR), 2019
+
+\textbf{Hierarchical Bidirectional Inference Networks for Health Profiling}\\
+Hao Wang, Chengzhi Mao, \textbf{Hao He}, Dina Katabi, Tommi jaakkola\\
+The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), 2019
+
+\textbf{RF-Based Fall Monitoring Using Convolutional Neural Networks}\\
+\textbf{Hao He}*, Yonglong Tian*, Guang-he Lee*, Dina Katabi, Chen-yu Hsu\\
+ACM International Joint Conference on Pervasive and Ubiquitous Computing, 2018
+
+\textbf{Extracting Multi-Person Respiration from Entangled RF Signals}\\
+Shichao Yue, \textbf{Hao He}, Dina Katabi \\
+ACM International Joint Conference on Pervasive and Ubiquitous Computing, 2018
+
+\textbf{Exposure: A White-Box Photo Post-Processing Framework}\\
+Yuanming Hu, \textbf{Hao He}, Chenxi Xu, Baoyuan Wang, Stephen Lin\\
+ACM Transactions on Graphics (TOG), 2018
+
+% \vspace{-7mm}
+\textbf{From Bayesian Sparsity to Gated Recurrent Nets}\\
+\textbf{Hao He}, Bo Xin, Satoshi Ikehata, David Wipf\\
+Conference on Neural Information Processing Systems (NeurIPS), 2017 \emph{(Oral presentation)}
 %-------------------------------------------------------------------------------
-\vspace{-5mm}
+% \vspace{-5mm}
+
+%-------------------------------------------------------------------------------
+%	SERVICES SECTION
+%-------------------------------------------------------------------------------
+\section{SERVICES}
+\textbf{Reviewer:} NeurIPS 19, ICML 19\\
+\textbf{Program Committee:} AAAI 20, UAI 19
 
 %-------------------------------------------------------------------------------
 %	COURSES SECTION
 %-------------------------------------------------------------------------------
 \section{COURSES}
-\Bullet{System: Computer Network (6.892) (A+)}
-\Bullet{AI: Algorithm for Inference (6.438) (A), Information and Inference (6.437) (taking), Bayesian Modelling and Inference (6.882) (taking).}
+\textbf{System:} Computer Network (6.892) (A+) \\
+\textbf{AI:} Algorithm for Inference (6.438) (A), Information and Inference (6.437) (A), Fundamentals of Probability(6.436) (A), Bayesian Modelling and Inference (6.882) (A) \\
+\textbf{Theory:} Learning-Augmented Algorithms (6.890) (A)
 %-------------------------------------------------------------------------------
-\vspace{-5mm}
 
 %-------------------------------------------------------------------------------
-%	COURSES SECTION
+%	AWARDS SECTION
 %-------------------------------------------------------------------------------
 \section{AWARDS}
-    \Bullet{National Scholarship for Excellent Academic Performance, China (highest, twice)} 
+    \Bullet{National Scholarship for Excellent Academic Performance, China (highest, twice)}
     \Bullet{Arawana Scholarship for Excellent Academic Performance, Peking University}
     \Bullet{ACM-ICPC 2015 Asia Regional Shenyang Site, Gold Medal}
     \Bullet{ACM-ICPC 2014 Asia Regional Anshan Site, Gold Medal}
