@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 JAN 2020 00:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2020 01:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -199,40 +199,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--120
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--137
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
 
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (9.11856pt too wide) in paragraph at lines 208--211
+Overfull \hbox (9.11856pt too wide) in paragraph at lines 212--215
 \OT1/cmr/bx/n/10 Workshop Re-viewer or PC mem-ber: \OT1/cmr/m/n/10 NeurIPS 19 R
 e-pro-ducibil-ity Chal-lenge, NeurIPS
  []
 
 
-Overfull \hbox (10.32198pt too wide) in paragraph at lines 216--220
+Overfull \hbox (10.32198pt too wide) in paragraph at lines 220--224
 \OT1/cmr/bx/n/10 Theory: \OT1/cmr/m/n/10 Learning-Augmented Al-go-rithms (6.890
 ) (A), An Al-go-rith-mist's Toolkit (18.408)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--220
+Underfull \hbox (badness 10000) in paragraph at lines 220--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--229
+Underfull \hbox (badness 10000) in paragraph at lines 229--233
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 286.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 286.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
  4302 strings out of 493014
@@ -249,7 +254,7 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 89446 bytes).
+Output written on resume.pdf (2 pages, 89633 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
